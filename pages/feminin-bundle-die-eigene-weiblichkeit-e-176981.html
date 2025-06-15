@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Feminin Bundle - Die eigene Weiblichkeit erwecken - Spare 30%!</title>
+    <meta name="description" content="Entdecke Feminin Bundle - Die eigene Weiblichkeit erwecken zum absoluten Bestpreis! 
+        Mit 30% Rabatt sicherst du dir jetzt ein unschlagbares An...">
+    <style>
+        :root {
+            --primary: #5D4E99;
+            --secondary: #FF6B6B;
+            --success: #4ECDC4;
+            --dark: #2B2D42;
+            --light: #F8F9FA;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--light);
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 15s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(180deg); }
+        }
+        
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .price-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+            position: relative;
+        }
+        
+        .price {
+            font-size: 4em;
+            font-weight: bold;
+            color: var(--secondary);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .savings {
+            display: inline-block;
+            background: var(--success);
+            color: white;
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(78,205,196,0.3);
+        }
+        
+        .intro {
+            font-size: 1.3em;
+            line-height: 1.8;
+            color: #555;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .benefits {
+            margin: 50px 0;
+        }
+        
+        .benefits h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: var(--primary);
+        }
+        
+        .benefit-list {
+            list-style: none;
+        }
+        
+        .benefit-list li {
+            font-size: 1.3em;
+            margin: 25px 0;
+            padding: 25px;
+            background: linear-gradient(to right, #f5f7fa 0%, transparent 100%);
+            border-radius: 10px;
+            position: relative;
+            padding-left: 60px;
+            transition: transform 0.3s;
+        }
+        
+        .benefit-list li:hover {
+            transform: translateX(10px);
+        }
+        
+        .benefit-list li::before {
+            content: "✅";
+            position: absolute;
+            left: 20px;
+            font-size: 1.5em;
+        }
+        
+        .cta-section {
+            text-align: center;
+            margin: 60px 0;
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 20px 60px;
+            font-size: 1.5em;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+        
+        .guarantee {
+            background: #e8f8f5;
+            border: 2px solid var(--success);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .guarantee h3 {
+            color: var(--success);
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2em;
+            }
+            
+            .price {
+                font-size: 3em;
+            }
+            
+            .cta-button {
+                padding: 15px 40px;
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🚀 Feminin Bundle - Die eigene Weiblichkeit erwecken - Spare 30%!</h1>
+        <p style="font-size: 1.2em; opacity: 0.9;">🏷️ Persönlichkeitsentwicklung | 👤 Energetic Family</p>
+    </div>
+    
+    <div class="container">
+        <p class="intro">Entdecke Feminin Bundle - Die eigene Weiblichkeit erwecken zum absoluten Bestpreis! 
+        Mit 30% Rabatt sicherst du dir jetzt ein unschlagbares Angebot.</p>
+        
+        <div class="price-section">
+            <div class="price">62.62€</div>
+            <div class="savings">🎉 Du sparst 30%!</div>
+            <p style="margin-top: 20px; color: #666;">Nur für kurze Zeit verfügbar!</p>
+        </div>
+        
+        <div class="benefits">
+            <h2>Was dich erwartet:</h2>
+            <ul class="benefit-list">
+                <li>✅ Spare 30% vom regulären Preis</li><li>✅ Premium Persönlichkeitsentwicklung-Lösung von Energetic Family</li><li>✅ Sofortiger Zugang + 30 Tage Geld-zurück-Garantie</li>
+            </ul>
+        </div>
+        
+        <div class="cta-section">
+            <h2>Jetzt zugreifen und massiv sparen! 💰</h2>
+            <a href="https://www.digistore24.com/redir/176981/Archeress/" class="cta-button" target="_blank">
+                Jetzt sichern →
+            </a>
+        </div>
+        
+        <div class="guarantee">
+            <h3>🛡️ 100% Zufriedenheitsgarantie</h3>
+            <p>30 Tage Geld-zurück-Garantie - ohne Wenn und Aber! Deine Zufriedenheit steht an erster Stelle.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>* Dies ist ein Affiliate-Link. Beim Kauf über diesen Link erhalten wir eine kleine Provision.</p>
+        <p>Der Preis bleibt für dich natürlich gleich. Vielen Dank für deine Unterstützung!</p>
+    </div>
+</body>
+</html>
